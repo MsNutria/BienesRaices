@@ -1,0 +1,8 @@
+.boton-amarillo {
+    @include boton(#E08709, block);
+
+}
+
+.boton-verde {
+    @include boton(#71B100, inline-block);
+}
