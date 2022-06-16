@@ -1,3 +1,28 @@
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include tablet {
+        align-items: flex-end;
+    }
+
+    .dark-mode-boton {
+        width: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        filter: invert(100%);
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        @include tablet {
+            margin-top: 0;
+        }
+    }
+}
+
 .barra {
     display: flex;
     flex-direction: column;
@@ -7,19 +32,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-end;
-
-        img{
-            margin-top: 2rem;
-            width: 30rem;
-            height: auto;
-        }
     }
-    img{
-        margin-top: 2rem;
-        width: 30rem;
-        height: auto;
-    }
-
 }
 
 .navegacion {
@@ -37,7 +50,7 @@
     }
     
     a {
-        color: $blanco;
+        color: #FFFFFF;
         text-decoration: none;
         font-size: 2.2rem;
         display: block;
@@ -53,12 +66,13 @@
         }
 
         &:hover {
-            color: $verde;
+            color: #71B100;
         }
     }
 }
 
-/** Menu de hamburguesa uwu**/
+
+/** Menu de hamburguesa **/
 .mobile-menu {
     @include tablet {
         display: none;

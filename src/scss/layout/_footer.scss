@@ -1,14 +1,21 @@
-.footer{
-    padding: 5rem;
-    background-color: $grisOscuro;
+.footer {
+    padding: 5rem 0;
+    background-color: #333333;
     margin-bottom: 0;
 
-    .contenedor-footer{
+    .contenedor-footer {
         padding-top: 5rem;
     }
 
-    .copyright{
-        color: $blanco;
+    .navegacion {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+
+    .copyright {
+        color: #FFFFFF;
         text-align: center;
     }
 }
+

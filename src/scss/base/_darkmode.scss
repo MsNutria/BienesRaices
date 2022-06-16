@@ -1,0 +1,46 @@
+.dark-mode {
+    background-color: darken($color: #333333, $amount: 10);
+
+    p {
+        color: #FFFFFF;
+    }
+
+    a, h1, h2, h3, h4 {
+        color: #e1e1e1;
+    }
+
+    .anuncio,
+    .resumen-propiedad {
+        background-color: #333333;
+        border: 1px solid #333333;
+
+        .precio {
+            color: #71B100;
+        }
+
+        .icono {
+            filter: invert(100%);
+        }
+    }
+
+    .texto-nosotros blockquote {
+        color: #FFFFFF;
+    }
+
+    .formulario {
+        label,
+        legend,
+        p {
+            color: #e1e1e1;
+        }
+
+        input:not([type="submit"]),
+        textarea,
+        select {
+            background-color: #333333;
+            border: 1px solid #333333 ;
+            color: #FFFFFF;
+        }
+    }
+
+}
