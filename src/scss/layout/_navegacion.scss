@@ -45,3 +45,20 @@
         }
     }
 }
+
+/** Menu de hamburguesa uwu**/
+.mobile-menu {
+    @include tablet {
+        display: none;
+    }
+
+    img {
+        width: 5rem;
+    }
+}
+
+.mostrar {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+}
