@@ -7,7 +7,19 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-end;
+
+        img{
+            margin-top: 2rem;
+            width: 30rem;
+            height: auto;
+        }
     }
+    img{
+        margin-top: 2rem;
+        width: 30rem;
+        height: auto;
+    }
+
 }
 
 .navegacion {
